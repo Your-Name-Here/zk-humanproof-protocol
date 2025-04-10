@@ -1,0 +1,56 @@
+name: 📄 Spec Suggestion
+description: Propose a change, addition, or clarification to the zk-HumanProof Protocol spec.
+title: "[Spec] "
+labels: [spec-discussion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Thanks for helping improve the zk-HumanProof Protocol!
+
+        Please describe the idea, change, or clarification you'd like to propose below.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A short explanation of the suggestion or idea.
+      placeholder: e.g., Add support for a new proof type like zk-TOTP
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: What problem does this address or what benefit does it provide?
+      placeholder: e.g., Prevents abuse by users with temporary access tokens...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Change
+      description: Describe your proposed spec change or addition. Include any impacted sections or structure.
+      placeholder: Be as detailed as possible, e.g., Update Protocol Flow and Proof Types sections...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered other ways to solve this? Why is this proposal the best fit?
+      placeholder: Optional, but helpful if you have context.
+    validations:
+      required: false
+
+  - type: textarea
+    id: open-questions
+    attributes:
+      label: Open Questions
+      description: Any risks, unclear points, or feedback you want to request?
+      placeholder: e.g., Should this be opt-in or mandatory for browsers?
+    validations:
+      required: false
